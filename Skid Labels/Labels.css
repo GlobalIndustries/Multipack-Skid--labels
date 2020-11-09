@@ -1,0 +1,23 @@
+﻿@media print {
+    @page {
+        size: auto portrait;
+        margin: .125in .125in .125in .125in;
+    }
+
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .Label {
+        width: 4in;
+        min-height: 7in;
+        height: 7in;
+        padding: .125in .125in .125in .125in;
+        border: 0;
+        display: block;
+    }
+}
